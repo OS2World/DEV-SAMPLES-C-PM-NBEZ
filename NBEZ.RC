@@ -1,0 +1,32 @@
+/*********************************************************************
+ *                                                                   *
+ * MODULE NAME :  nbez.rc                AUTHOR:  Rick Fishman       *
+ * DATE WRITTEN:  10-17-92                                           *
+ *                                                                   *
+ * DESCRIPTION:                                                      *
+ *                                                                   *
+ *  Resource file for NBEZ.EXE.                                      *
+ *                                                                   *
+ * HISTORY:                                                          *
+ *                                                                   *
+ *  12-05-92 - Copied source from NBBASE sample                      *
+ *                                                                   *
+ *  Rick Fishman                                                     *
+ *  Code Blazers, Inc.                                               *
+ *  4113 Apricot                                                     *
+ *  Irvine, CA. 92720                                                *
+ *  CIS ID: 72251,750                                                *
+ *                                                                   *
+ *********************************************************************/
+
+#include <os2.h>
+#include "nbez.h"
+
+ICON ID_NBWINFRAME nbez.ico
+
+rcinclude nbez.dlg
+
+/*********************************************************************
+ *                    E N D   O F   S O U R C E                      *
+ *********************************************************************/
+

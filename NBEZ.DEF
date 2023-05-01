@@ -1,5 +1,4 @@
 NAME           NBEZ     WINDOWAPI
-PROTMODE
-HEAPSIZE       16384
+
+DESCRIPTION     '@#OS2World:1.01#@##1## 01 May 2023 20:00:00     ARCAOS-507::::::v1.01@@Notebook Control PM Sample'
 STACKSIZE      16384
-

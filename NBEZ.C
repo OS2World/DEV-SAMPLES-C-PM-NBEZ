@@ -29,19 +29,15 @@
  *  more of us the better!                                           *
  *                                                                   *
  * HISTORY:                                                          *
+ *  2023-05-01 - Changes to compile with gcc 9 under ArcaOs			 *
  *                                                                   *
- *  12-05-92 - Copied source code from the NBBASE.EXE sample and     *
+ *  1992-12-05 - Copied source code from the NBBASE.EXE sample and   *
  *                streamlined it.                                    *
  *                                                                   *
- *  Rick Fishman                                                     *
- *  Code Blazers, Inc.                                               *
- *  4113 Apricot                                                     *
- *  Irvine, CA. 92720                                                *
- *  CIS ID: 72251,750                                                *
  *                                                                   *
  *********************************************************************/
 
-#pragma strings(readonly)   // used for debug version of memory mgmt routines
+//#pragma strings(readonly)   // used for debug version of memory mgmt routines
 
 /*********************************************************************/
 /*------- Include relevant sections of the OS/2 header files --------*/
@@ -415,4 +411,3 @@ MRESULT EXPENTRY wpPage4( HWND hwnd, ULONG msg, MPARAM mp1, MPARAM mp2 )
 /************************************************************************
  *                      E N D   O F   S O U R C E                       *
  ************************************************************************/
-

@@ -7,13 +7,11 @@ LICENSE
 
 COMPILE TOOLS
 ===============
-* IBM C compiler - icc.exe
-* link386
-* RC
-
+* yum install git gcc make libc-devel binutils watcom-wrc watcom-wlink-hll
  
 AUTHORS
 ===============
+* Martin Iturbide
 * Rick Fishman
 
 LINKS
